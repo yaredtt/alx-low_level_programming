@@ -3,12 +3,12 @@
  * print_number - prints number
  * @n: integer to be printed
  */
-void print_number(int n)
+	void print_number(int n)
 {
 	unsigned int j;
 
 	if (n < 0)
-	{
+{
 	j = -n;
 	_putchar('-');
 }
