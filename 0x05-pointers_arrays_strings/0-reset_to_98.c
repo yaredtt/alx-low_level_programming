@@ -1,19 +1,11 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code 
- *
- * Return: Always 0.
+ * reset_to_98 - take int ptr
+ * @n: input intiger
+ * Return: no return
  */
-int main(void)
-{
-	void reset_to_98
+	void reset_to_98(int *n)
 {
 
-	int *ptr;
-
-	*ptr = 98;
-}
-	return (0);
+	*n = 98;
 }
