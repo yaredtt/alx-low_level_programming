@@ -1,26 +1,21 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * print_array - print n element
- * @a: pointing var
- * @n: intigr
- * Return: void
+ * print_array - print n of int array followerd by a new line
+ * @a: pointer
+ * @n: n
  */
 void print_array(int *a, int n)
 {
-	int i = 0;
+	short z = 0;
 
-	while (i < n)
+	while (n-- > 0)
 	{
-	if (i < n - 1)
-	{
-	printf("%d ", a[i]);
+	printf("%d", a[z++]);
+	if (n != 0)
+	printf(", ");
 	}
-	else
-	{
-	printf("%d", a[i]);
-	i++;
-	}
+
 	printf("\n");
-}
 }
