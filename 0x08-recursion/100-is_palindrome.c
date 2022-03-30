@@ -17,7 +17,7 @@
 	if (*(s + len))
 	{
 	len++;
-	en += find_strlen(s + len);
+	len += find_strlen(s + len);
 	}
 
 	return (len);
